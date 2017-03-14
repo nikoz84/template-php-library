@@ -6,21 +6,7 @@ nomedoprejeto/
 --composer.json
 --run.php
 
-
-### criar composer.json 
-```json
-    {
-        "autoload": {
-            "psr-4": {"Pat\\": "src/"}
-    },
-        "require": {}	
-    }
-```
-### cria a pasta vendor com linha de comando
-```bach
- composer dump-autoload ou dumpautoload
-```
-### criar dentro de src/Html.php
+### Cria dentro de src/ a clase Html.php 
 ```php
 namespace Pat; // raiz do documento cada namespace será uma nova pasta
 Html
@@ -32,7 +18,22 @@ Html
 }
     
 ```
-### criar arquivo run.php
+
+### Cria arquivo composer.json 
+```json
+    {
+        "autoload": {
+            "psr-4": {"Pat\\": "src/"}
+    },
+        "require": {}	
+    }
+```
+### Cria a pasta vendor/ com linha de comando para fazer o autoloader das clases
+```bach
+ composer dump-autoload ou dumpautoload
+```
+
+### Cria arquivo run.php
 
 ```
 namespace Pat\Html;
@@ -41,3 +42,9 @@ $htmlObject = new Html();
 $htmlObject->saluda();     
 
  ```
+
+### Executa run.php
+
+```bach 
+php run.php    
+```
