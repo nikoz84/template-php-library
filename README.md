@@ -7,7 +7,7 @@ nomedoprejeto/
 --run.php
 
 
-### criar composer.json cria a pasta vendor dump-autoload ou dumpautoload
+### criar composer.json 
 ```json
     {
         "autoload": {
@@ -15,6 +15,10 @@ nomedoprejeto/
     },
         "require": {}	
     }
+```
+### cria a pasta vendor com linha de comando
+```bach
+ composer dump-autoload ou dumpautoload
 ```
 ### criar dentro de src/Html.php
 ```php
