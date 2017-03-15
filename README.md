@@ -46,7 +46,7 @@ $htmlObject->saluda();
 ### Executa run.php
 
 ```bach 
-php run.php    
+$ php run.php    
 ```
 ### Baixar arquivo phpcs.phar 
 ```bach
@@ -61,10 +61,10 @@ $ sudo pear install PHP_CodeSniffer
 $ composer global require "squizlabs/php_codesniffer=*"
 ```
 ### Consulta todas as regras PSR2 tipo espacio entre namespace erros de padronização de código
-```php phpcs.phar --standard=PSR2 MyClass.php```
+```$ php phpcs.phar --standard=PSR2 MyClass.php```
 ### Sumario do php sniffer
 ```
-php phpcs.phar --report=summary --standard=PSR2 src/MyClass.php
+$ php phpcs.phar --report=summary --standard=PSR2 src/MyClass.php
 ```
 ### Como Especificar o code standard?
 PEAR (default)

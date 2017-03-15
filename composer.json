@@ -1,7 +1,16 @@
 {
     "autoload": {
         "psr-4": {"Pat\\": "src/"}
-},
-    "require": {}	
+    },
+    "name": "pat/template-php-library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nikoz84/template-php-library.git"
+        }
+    ],
+    "require": {
+        "pat/template-php-library": "dev-master"
+    }	
 }
 
