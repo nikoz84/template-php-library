@@ -1,16 +1,16 @@
 {
+    "name": "pat/template-php-library",
+    "description": "Tentativa de criar uma libraria PHP",
+    "authors": [
+        {
+            "name": "nikoz84",
+            "email": "nikoz.1984@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"Pat\\": "src/"}
     },
-    "name": "pat/template-php-library",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nikoz84/template-php-library.git"
-        }
-    ],
-    "require": {
-        "pat/template-php-library": "dev-master"
-    }	
+    "require": {}	
 }
 
