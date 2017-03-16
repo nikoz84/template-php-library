@@ -1,13 +1,14 @@
 {
     "name": "pat/template-php-library",
     "description": "Tentativa de criar uma libraria PHP",
+    "version": "0.0.1",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "nikoz84",
             "email": "nikoz.1984@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"Pat\\": "src/"}
     },
